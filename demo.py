@@ -4,7 +4,6 @@ from housing.logger import logging
 from housing.config.configuration import Configuartion
 from housing.component.data_transformation import DataTransformation
 import os
-import pandas as pd
 def main():
     try:
         config_path = os.path.join("config","config.yaml")
